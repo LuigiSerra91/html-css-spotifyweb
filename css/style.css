@@ -9,5 +9,49 @@ img{
 }
 
 body{
-    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.sidebar{
+    background-color: aqua;
+    width: 245px;
+    height:1000px;
+    background-color: aquamarine;
+}
+
+.container{
+     width:calc(100% - 245px);
+    height:1000px;
+    background-color: antiquewhite;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    background-color: black;
+    width: 100%;
+    height: 60px;
+
+    a{
+        margin-right: 10px;
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 0.5rem 1rem;
+        border-radius: 15px;
+    }
 }
