@@ -15,20 +15,67 @@ body{
     
 }
 
+[class^="col"] {
+    padding: 1rem;
+}
 
+.row{
+    display: flex;
+    margin: 0 -1rem;
+    flex-wrap: wrap;
+}
 
+.col3{
+    width: 100%;
+    
+}
+
+.section_img{
+    display: flex;
+}
 
 .sidebar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
     background-color: aqua;
     width: 245px;
-    height:1000px;
+    height:1020px;
     background-color: aquamarine;
+    span{
+        vertical-align: middle;
+        color: white;
+        
+    }
+    img{
+        vertical-align: middle;
+        margin: 3px;
+    }
+
+    ul{
+        line-height: 35px;
+    }
+}
+
+
+
+.app_sidebar{
+    border-bottom: 1px solid black;
+    padding: 2px;
+}
+.sidebar_jhon_doe{
+    p{
+        padding: 3px;
+    }
+    
 }
 
 .container{
      width:calc(100% - 245px);
-    height:1000px;
+    height:1020px;
     background-color: antiquewhite;
+   
 }
 
 .footer{
@@ -69,3 +116,17 @@ body{
         margin-top: 15px;
     }
 }
+
+.container_song{
+      display: flex;
+    
+    margin-top: 15px;
+    img{
+        width: 130px;
+        margin: 2px;
+        
+        
+    }
+    
+}
+
