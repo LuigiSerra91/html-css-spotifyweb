@@ -208,7 +208,7 @@ nav{
  @media screen and (min-width: 685px){
 
     .col-md{
-        width: calc(100% / 12 *4);
+        width: calc(100% / 12 *5);
         
     }
     .container{
@@ -216,9 +216,9 @@ nav{
     }
  }
 
- @media screen and (min-width: 800px){
+ @media screen and (min-width: 900px){
       .col-lg{
-        width: calc(100% / 12 *3)
+        width: calc(100% / 12 *4)
       }
       .container{
         width: 100%;
@@ -235,3 +235,19 @@ nav{
       }
  }
 
+ @media screen and (min-width: 2000px){
+    .col-xl{
+        width: calc(100% / 12 *2)
+      }
+      .container{
+        width: 100%;
+      }
+ }
+
+ .left_bottom{
+    display: flex;
+    align-items: center;
+    img{
+        vertical-align: middle;
+    }
+ }
