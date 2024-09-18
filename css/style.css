@@ -84,6 +84,7 @@ nav{
 
    
     .sidebar{
+        line-height: 25px;
         background-color: #000000;
         display: flex;
         justify-content: space-between;
@@ -105,7 +106,19 @@ nav{
                 margin-bottom: 5px;
                 color: var(--sp-href_nav);
             }
+            .fa-plus{
+                background-color: var(--sp-href_nav);
+
+            }
         }
+        ul, h4{
+            display: none;
+        }
+        li{
+            color: var(--sp-href_nav);
+            text-decoration: none;
+        }
+
     }
 
     
@@ -114,14 +127,17 @@ nav{
     margin: auto;
     width: 100%;
     background-color: var(--sp-container);
+   img{
+    padding: 10px;
+   }
  
 }
 .content{
     height: 100%;
     width: 100%;
-    background-color: brown;
+    
     overflow-y: auto;
-   
+    overflow-x: hidden;
    
    }
     
@@ -141,6 +157,24 @@ nav{
     align-items: center;
 
  }
+
+ /* query_md */
+
+ @media screen and(min-width:600px){
+    span, h4, ul{
+       display: inline;  
+
+      }
+      .sidebar{
+        width: 245px;
+      }
+
+
+
+    
+ }
+    
+ 
 
  
  
