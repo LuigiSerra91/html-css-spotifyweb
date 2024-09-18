@@ -245,9 +245,33 @@ nav{
  }
 
  .left_bottom{
+    width: 15%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     img{
         vertical-align: middle;
+    }
+ }
+
+ .center_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    i{
+        margin-left: 15px;
+        color: white;
+        margin: 3px;
+        margin: 5px;
+    }
+   span{
+    color: white;
+   }
+ }
+
+ .right_bottom{
+    i{
+        margin: 5px;
     }
  }
