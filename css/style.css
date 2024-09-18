@@ -18,6 +18,7 @@ img{
 
 body{
     overflow: hidden; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 [class^="col-"] {
@@ -106,10 +107,7 @@ nav{
                 margin-bottom: 5px;
                 color: var(--sp-href_nav);
             }
-            .fa-plus{
-                background-color: var(--sp-href_nav);
-
-            }
+           
         }
         ul, h4{
             display: none;
@@ -118,7 +116,29 @@ nav{
             color: var(--sp-href_nav);
             text-decoration: none;
         }
+        h4{
+            color: white;
+        }
 
+    }
+
+    .menu_sidebar{
+        p{
+            color: white;
+            border: 1px solid white;
+            width: 30px;
+            padding: 10px;
+        }
+
+        .menu_top{
+            span{
+                color: white;
+                vertical-align: middle;
+            }
+            img{
+                vertical-align: middle;
+            }
+        }
     }
 
     
@@ -126,6 +146,7 @@ nav{
 .container{
     margin: auto;
     width: 100%;
+    height: 100%;
     background-color: var(--sp-container);
    img{
     padding: 10px;
@@ -141,7 +162,6 @@ nav{
    
    }
     
- 
 
  #app_header{
     width: 100%;
@@ -157,27 +177,37 @@ nav{
     align-items: center;
 
  }
+ 
 
- /* query_md */
+ 
+ @media screen and (min-width: 600px) {
 
- @media screen and(min-width:600px){
-    span, h4, ul{
-       display: inline;  
+     .top{
+        height: calc(100% - 80px);
+        .sidebar{
+            width: 250px;
+            ul, span, h4{
+                display: inline;
+            }
+        }
+        .menu_sidebar{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            
+        }
+     }
 
-      }
-      .sidebar{
-        width: 245px;
-      }
+ }
 
+ @media screen and (min-width: 685px){
 
+    .col-md{
+        width: calc(100% / 12 *3);
+        
+    }
+ }
 
+ @media screen and (min-width: 1100px){
     
  }
-    
- 
-
- 
- 
-
-
- 
