@@ -146,12 +146,15 @@ nav{
     
 }
 .container{
+    overflow: hidden;
+    overflow-y: auto;
     margin: auto;
     width: 100%;
     height: 100%;
     background-color: var(--sp-container);
    img{
     padding: 10px;
+    
    }
  
 }
@@ -208,17 +211,27 @@ nav{
         width: calc(100% / 12 *4);
         
     }
+    .container{
+        width: 100%;
+    }
  }
 
  @media screen and (min-width: 800px){
       .col-lg{
         width: calc(100% / 12 *3)
       }
+      .container{
+        width: 100%;
+      }
+     
  }
 
  @media screen and (min-width: 1024px){
     .col-xl{
         width: calc(100% / 12 *2)
+      }
+      .container{
+        width: 100%;
       }
  }
 
