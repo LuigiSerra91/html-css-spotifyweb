@@ -205,6 +205,27 @@ nav{
 
  }
 
+ a:hover{
+    text-shadow: 0 0 4px #fff;
+    transition: 0.3s ease;
+    border-bottom:1px solid greenyellow;
+    
+ }
+  li:hover{
+    text-shadow: 0 0  7px #fff;
+    transition: 0.3s ease;
+   
+ }
+
+ i:hover{
+    text-shadow: 0 0 4px #fff;
+    transition: 0.3s ease;
+ }
+ span:hover{
+    text-shadow: 0 0 4px #fff;
+    transition: 0.3s ease;
+ }
+
  @media screen and (min-width: 685px){
 
     .col-md{
