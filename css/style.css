@@ -10,9 +10,7 @@ img{
 
 body{
     overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    
+  
 }
 
 [class^="col"] {
@@ -25,128 +23,32 @@ body{
     flex-wrap: wrap;
 }
 
-.col3{
-    width: 100%;
-    
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: aquamarine;
 }
 
-.section_img{
-    display: flex;
+.top{
+    background-color: bisque;
+    height: calc(100% - 80px);
+}
+
+.bottom{
+    background-color: rgb(213, 19, 19);
+    height: 80px;
+    width: 100%;
+
 }
 
 .sidebar{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 10px;
-    background-color: aqua;
-    width: 245px;
-    height:1020px;
-    background-color: aquamarine;
-    span{
-        vertical-align: middle;
-        color: white;
-        
-    }
-    img{
-        vertical-align: middle;
-        margin: 3px;
-    }
-
-    ul{
-        line-height: 35px;
-    }
-}
-
-
-
-.app_sidebar{
-    border-bottom: 1px solid black;
-    padding: 2px;
-}
-.sidebar_jhon_doe{
-    p{
-        padding: 3px;
-    }
-    
-}
-
-.container{
-     width:calc(100% - 245px);
-    height:1020px;
-    background-color: antiquewhite;
-    overflow: scroll;
-   
-}
-
-.footer{
-    width: 100%;
-    height: 100px;
+    width: 50px;
     background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-}
-
-.header{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    
-    background-color: black;
-    width: 100%;
-    height: 60px;
-
-    a{
-        margin-right: 10px;
-        color: white;
-        text-decoration: none;
-        border: 1px solid white;
-        padding: 0.5rem 1rem;
-        border-radius: 15px;
-    }
+    height: 100%;
 }
 
 .content{
-    display: flex;
-    justify-content: center;
-    a{
-        text-decoration: none;
-        margin: 15px;
-        
-    }
-
-    .menù{
-        margin-top: 15px;
-    }
-}
-
-.container_song{
-      display: flex;
-    flex-wrap: wrap;
-    margin-top: 15px;
-   height: 100%;
-    
-  
-    
-}
-
-.card_img{
-    width: 180px;
-    margin: 5px;
-}
-
-.d-flex{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.section_img{
-width: 100%;
-display: flex;
-flex-wrap: wrap;
-
-
-
+    width: calc(100% -50px);
+    height: 100%;
 }
