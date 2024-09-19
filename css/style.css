@@ -331,12 +331,13 @@ nav{
         width: 100%;
       }
  }
- @media screen and (max-width: 700px) {
+ @media screen and (max-width: 550px) {
 
-    .right_bottom{
-        display: none;
-        
-    }
+     .right_bottom{
+        i{
+            display: none;
+        }
+     }
 
     .bottom{
         justify-content: space-around;
@@ -344,6 +345,30 @@ nav{
     
     
  }
+
+ @media screen and (max-width: 550px) {
+    nav{
+        a{
+            font-size:15px ;
+        }
+    }
+ }
+
+ @media screen and (max-width: 430px) {
+
+     .col-xs{
+        width:100%;
+     }
+
+     nav{
+        a{
+            font-size:13px ;
+        }
+    }
+ }
+
+
+
  /* end_mediaquery */
   /* card_hover */
  a:hover{
@@ -452,3 +477,10 @@ img:hover{
 
  }
  /* end_media_query */
+
+ .volume{
+    display: inline;
+    border:1px solid ;
+   width: 50px;
+   height: 4px;
+ }
