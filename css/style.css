@@ -113,6 +113,7 @@ nav{
 
         img{
             margin-bottom: 2px;
+            width: 30px;
         }
 
         .bottom_sidebar{
@@ -143,12 +144,13 @@ nav{
           h4{
             margin-bottom: 15px;
           }
+
         line-height: 20px;
-        p{
-            color: white;
-            border: 1px solid white;
-            width: 30px;
+        
+        i{
+            width: 35px;
             padding: 10px;
+            background-color: var(--sp-href_nav);
         }
 
         .menu_top{
@@ -184,6 +186,7 @@ nav{
             
     img{
         vertical-align: middle;
+        width: 25px;
     }
    
 }
@@ -390,6 +393,7 @@ nav{
     justify-content: space-between;
     img{
         vertical-align: middle;
+        width: 40px;
     }
     i, span{
         color: white;
