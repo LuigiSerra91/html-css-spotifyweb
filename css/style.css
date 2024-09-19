@@ -122,6 +122,8 @@ nav{
             color: white;
         }
 
+        
+
     }
 
     .menu_sidebar{
@@ -145,6 +147,27 @@ nav{
 
     
 }
+.bottom_sidebar{
+
+     hr{
+        color: lightslategray;
+        margin-right: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: none;
+    }
+
+    span{
+        display: none;
+    }
+
+            
+    img{
+        vertical-align: middle;
+    }
+   
+}
+
 .container{
 
    
@@ -242,6 +265,12 @@ nav{
             flex-wrap: wrap;
             flex-direction: column;
             
+        }
+     }
+
+     .bottom_sidebar{
+        i{
+            margin-left: 6px;
         }
      }
 
