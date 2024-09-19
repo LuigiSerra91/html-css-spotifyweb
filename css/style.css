@@ -20,29 +20,27 @@ body{
     overflow: hidden; 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+/* col_row */
 [class^="col-"] {
     padding: 1rem;
 }
 
 .col-6{
-    width: calc(100% / 12 *6);
-   
+    width: calc(100% / 12 *6);   
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1rem;
-   
-   
+    margin: 0 -1rem;  
 }
+/* end_col_row */
 
 .wrapper{
    height:100vh ; 
    
 }
-
+/* header */
 #app_header{
     width: 100%;
     height: 70px;
@@ -62,16 +60,16 @@ body{
         text-decoration: none;
         border: 1px solid white;
         padding: 0.5rem 1rem;
-        border-radius: 15px;
-        
+        border-radius: 15px;     
     }
 }
+/* end_header */
 .hover_upgrade:hover{
     transform: scale(1.5);
     transition: 0.3s ease;
     
 }
-
+/* nav */
 nav{
     width: 100%;
     display: flex;
@@ -88,10 +86,11 @@ nav{
     margin: 10px;
    }
 }
+/* end_nav */
 
 
 
-
+/* sidebar */
 .top{
     display: flex;
     
@@ -182,14 +181,14 @@ nav{
     span{
         display: none;
     }
-
-            
+        
     img{
         vertical-align: middle;
         width: 25px;
     }
    
 }
+/* end_sidebar */
 
 .container{
      
@@ -250,7 +249,6 @@ nav{
 
 .card:hover .img{
     opacity: 0.7;
-    
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     
@@ -271,25 +269,13 @@ nav{
 .content{
     height: 100%;
     width: 100%;
-    
     overflow-y: auto;
     overflow-x: hidden;
    
    }
     
-
  
-
- .bottom{
-    background-color: var(--sp-bottom);
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
- }
- 
-
+/* media_query */
  
  @media screen and (min-width: 600px) {
 
@@ -323,27 +309,6 @@ nav{
      }
     
 
- }
-
- a:hover{
-    text-shadow: 0 0 4px #fff;
-    transition: 0.3s ease;
-    border-bottom:1px solid greenyellow;
-
- }
-  li:hover{
-    text-shadow: 0 0  4px white;
-    transition: 0.3s ease;
-   
- }
-
- i:hover{
-    text-shadow: 0 0 4px white;
-    transition: 0.3s ease;
- }
- span:hover{
-    text-shadow: 0 0 4px white;
-    transition: 0.3s ease;
  }
 
  
@@ -385,7 +350,44 @@ nav{
         width: 100%;
       }
  }
+ @media screen and (max-width: 700px) {
 
+    .right_bottom{
+        display: none;
+        
+    }
+
+    .bottom{
+        justify-content: space-around;
+    }
+    
+    
+ }
+ /* end_mediaquery */
+  /* card_hover */
+ a:hover{
+    text-shadow: 0 0 4px #fff;
+    transition: 0.3s ease;
+    border-bottom:1px solid greenyellow;
+
+ }
+  li:hover{
+    text-shadow: 0 0  4px white;
+    transition: 0.3s ease;
+   
+ }
+
+ i:hover{
+    text-shadow: 0 0 4px white;
+    transition: 0.3s ease;
+ }
+ span:hover{
+    text-shadow: 0 0 4px white;
+    transition: 0.3s ease;
+ }
+
+ 
+/* footer */
  .left_bottom{
     width: 10%;
     display: flex;
@@ -424,16 +426,12 @@ nav{
     }
  }
 
- @media screen and (max-width: 700px) {
+ .bottom{
+    background-color: var(--sp-bottom);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    .right_bottom{
-        display: none;
-        
-    }
-
-    .bottom{
-        justify-content: space-around;
-    }
-    
-    
  }
+ /* end_media_query */
