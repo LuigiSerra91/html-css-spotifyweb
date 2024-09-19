@@ -384,7 +384,7 @@ nav{
  }
 
  .left_bottom{
-    width: 15%;
+    width: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -422,12 +422,14 @@ nav{
 
  @media screen and (max-width: 700px) {
 
-    .right_bottom, .icon{
+    .right_bottom{
         display: none;
         
     }
+
     .bottom{
         justify-content: space-around;
     }
+    
     
  }
