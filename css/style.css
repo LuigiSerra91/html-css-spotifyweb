@@ -139,6 +139,11 @@ nav{
 
     }
 
+    .plus{
+        display: flex;
+        align-items: center;
+    }
+
     .menu_sidebar{
           h4{
             margin-bottom: 15px;
@@ -325,7 +330,7 @@ nav{
 
  @media screen and (min-width: 900px){
       .col-lg{
-        width: calc(100% / 12 *4)
+        width: calc(100% / 12 *3)
       }
       .container{
         width: 100%;
