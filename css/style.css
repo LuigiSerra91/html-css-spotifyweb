@@ -140,6 +140,10 @@ nav{
     }
 
     .menu_sidebar{
+          h4{
+            margin-bottom: 15px;
+          }
+        line-height: 20px;
         p{
             color: white;
             border: 1px solid white;
@@ -148,6 +152,7 @@ nav{
         }
 
         .menu_top{
+            margin-bottom: 10px;
             span{
                 color: white;
                 vertical-align: middle;
@@ -161,6 +166,8 @@ nav{
     
 }
 .bottom_sidebar{
+
+   
 
      hr{
         color: lightslategray;
@@ -182,18 +189,37 @@ nav{
 }
 
 .container{
-
-   
+     
+     
     overflow: hidden;
     overflow-y: auto;
     margin: auto;
     width: 100%;
     height: 100%;
     background-color: var(--sp-container);
-    
+
+    h3{
+        color: white;
+        font-size: 2opx;
+    }
+    p{
+        color: var(--sp-href_nav);
+    }
+    h4{
+        text-align: center;
+        color: white;
+    }
+    .card{
+        p{
+            color: var(--sp-href_nav);
+        text-align: center;
+    }
+     }
 }
 
 .card{
+
+    
     img{
         display: block;
         opacity: 1;
@@ -355,6 +381,9 @@ nav{
     img{
         vertical-align: middle;
     }
+    i, span{
+        color: white;
+    }
  }
 
  .center_bottom{
@@ -374,7 +403,9 @@ nav{
  }
 
  .right_bottom{
+    margin-right: 3px;
     i{
-        margin: 5px;
+        margin: 2px;
+        color: white;
     }
  }
