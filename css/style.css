@@ -32,7 +32,7 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1rem;  
+    margin: 0;  
 }
 /* end_col_row */
 
@@ -96,6 +96,9 @@ nav{
 
    
     .sidebar{
+        overflow: hidden;
+        overflow-y: auto;
+        overflow-x: none;
         line-height: 25px;
         background-color: #000000;
         display: flex;
@@ -169,7 +172,9 @@ nav{
             }
         }
     }
-
+   .title{
+    padding: 1rem;
+   }
     
 }
 .bottom_sidebar{
