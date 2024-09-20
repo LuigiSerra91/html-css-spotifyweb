@@ -295,15 +295,6 @@ nav{
  }
     
  
-
- .volume{
-    display: inline;
-    border:1px solid ;
-   width: 50px;
-   height: 4px;
- }
-
- 
 /* footer */
 .left_bottom{
     width: 10%;
@@ -352,21 +343,13 @@ nav{
  }
     
  
-
- .volume{
-    display: inline;
-    border:1px solid ;
-   width: 50px;
-   height: 4px;
- }
-
  .console_radio{
     input[type="range"] {
         width: 100px;
         height: 4px;
         vertical-align: middle;
         margin: 3px;
-        appearance: none;
+        
     }
     span{
         vertical-align: middle;
@@ -374,15 +357,22 @@ nav{
 }
     .right_bottom{
         input[type="range"] {
+            
+            background-color: #717479;
+            
             height: 4px;
             vertical-align: middle;
             margin: 3px;
-            width: 100px;
-            appearance: none;
+            width: 100px; 
+                 
     }
+
     i{
         vertical-align: middle;
     }
+    
+        
+    
    
  }
 
@@ -412,7 +402,7 @@ nav{
             height: 4px;
             vertical-align: middle;
             margin: 3px;
-            appearance: none;
+           
         }
         span{
             vertical-align: middle;
@@ -460,7 +450,7 @@ nav{
             height: 4px;
             vertical-align: middle;
             margin: 3px;
-            appearance: none;
+            
         }
         span{
             vertical-align: middle;
@@ -483,7 +473,7 @@ nav{
             height: 4px;
             vertical-align: middle;
             margin: 3px;
-            appearance: none;
+            
         }
         span{
             vertical-align: middle;
